@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    &__top {
+        background-color: #0B1919;
+    }
+
+
+    &__topSocial {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding: 18px 0 ;
+        justify-content: center;
+    }
+    &__bottom{
+        background-color: #1D2F30;
+        padding: 3px;
+        color: #899D9D;
+        font-family: "Open Sans";
+        text-align: center;
+    }
+}

@@ -1,0 +1,8 @@
+.artifacts {
+    padding-top: 60px;
+    background-color: #1D2F30;
+    &__item{
+        display: flex;
+        justify-content: space-between;
+    }
+}

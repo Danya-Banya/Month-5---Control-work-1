@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.artifactCard {
+    max-width: 255px;
+    border: 1px solid #0B1919;
+    // justify-content: space-between;
+    height: 493px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    &__cardRating {
+        border: 50%;
+    }
+
+    &__top {
+        background-color: #0B1919;
+        padding: 16px;
+
+    }
+
+    &__title {
+        font-family: "Cormorant", serif;
+        font-size: 24px;
+    }
+
+    &__description {
+        font-size: 16px;
+        font-family: "Open Sans";
+        margin-top: 8px;
+        color: #899D9D;
+        flex-grow: 1;
+    }
+
+    &__rating {
+        color: #899D9D;
+        border: 1px solid #899D9D;
+        border-radius: 50%;
+        max-width: 26px;
+        justify-content: center;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+
+    &__content {
+        padding: 24px 16px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__button {
+        font-size: 16px;
+        background: none;
+        border: 1px solid #BAE249;
+        padding: 10.5px 28.5px;
+        justify-self: end;
+        color: #BAE249;
+        font-family: "Open Sans";
+        align-self: flex-start;
+        transition: all 0.5s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #BAE249;
+            color: #0B1919;
+        }
+    }
+
+}

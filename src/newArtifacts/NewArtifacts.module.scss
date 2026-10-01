@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.newArtifacts {
+    padding: 60px 0;
+    background-color: #1D2F30;
+
+    &__item {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__title {
+        font-size: 48px;
+        font-family: "Cormorant", serif;
+        margin-bottom: 30px;
+    }
+
+    &__content {
+        background-color: #BAE249;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 24px 16px;
+    }
+
+    &__image {
+        width: 825px;
+    }
+
+    &__contentTitle {
+        font-size: 24px;
+        color: #1D2F30;
+        font-family: "Cormorant", serif;
+    }
+
+    &__description {
+        color: #506829;
+        font-size: 16px;
+        font-family: "Open Sans";
+        max-width: 223px;
+        flex-grow: 1;
+    }
+
+    &__read {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        flex: 1;
+    }
+
+    &__readText {
+        font-family: "Open Sans";
+        font-size: 16px;
+        color: #0B1919;
+    }
+}
